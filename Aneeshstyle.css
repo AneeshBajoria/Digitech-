@@ -1,0 +1,450 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: black;
+}
+
+.nav {
+overflow: hidden;
+z-index: 2;
+ background-image: url(img/4.jpg);
+
+}
+.nav_fix{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+.nav .Logo {
+	
+	width: 20%;
+	padding:  10px;
+	padding-left: 150px;
+	padding-top: 20px;
+    float: left;
+
+}
+.nav .Menu_Bar {
+	padding-left: 200px;
+	width: 54%;
+	padding: 20px;
+    display: flex;
+    float: right;
+ 
+}
+.Menu_Bar a {
+	font-family: 'Heebo', sans-serif;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: right;
+	margin-right:25px; 
+	color: white;
+	padding-right: 30px;
+	padding-top: 40px;
+	font-weight: bold;
+	
+}
+.Menu_Bar a:hover {
+	color:#EE5528;
+	font-weight: bolder;
+}
+.card img {
+	opacity: 0.7;
+	float: left;
+	
+
+}
+.container1{
+ width: 100%;
+ display: flex;
+ background-image: url(img/4.jpg);
+}
+.container1 .card{
+	width:100%;
+	height:900px;
+	overflow: hidden;
+	
+
+}
+.container1 .card1{
+	
+	background-size: cover; 
+	background-position: center;
+}
+.container1 .card1 h2 {
+	font-family: 'Heebo', sans-serif;
+	font-size: 45px;
+	color: white;
+	text-align: center;
+    margin-top: 300px;
+	}
+	.container1 .card2{
+	
+	padding-top:100px;
+}
+
+.container1 .card3{
+	padding-top: 100px;
+	padding-left: 180px;
+}
+.card3 .a12{
+	color: white;
+}
+.card3 .a13{
+	color: white;
+	padding: 10px;
+}
+
+.about {
+    padding-left: 10px;
+    padding-right: 10px;
+   font-family: 'Heebo', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+.tex {
+    font-size: 13px;
+    color: #fff;
+    line-height: 20px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+     font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+ .about-section {
+    background: url(img/aboutus.png) no-repeat left;
+    background-size: 45%;
+    background-color:#0e0e0e;
+    overflow: hidden;
+    padding: 100px 0;
+    padding-bottom: 15%;
+}
+.inner-container {
+    width: 55%;
+    float: right;
+    padding: 80px;
+    background-color: #0e0e0e;
+}
+ .serv {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    /* border-radius: 20px; */
+    box-shadow: 4px 4px 4px #ccc;
+    padding: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    background-color: #F3F1F1;
+    
+    margin: 30px;
+    -webkit-box-shadow: 0px 0px 24px -17px rgb(0 0 0 / 43%);
+    -moz-box-shadow: 0px 0px 24px -17px rgba(0,0,0,0.43);
+    box-shadow: 0px 0px 24px -17px rgb(0 0 0 / 43%);
+}
+.serv img {
+    height: 80px;
+    width: 80px;
+    opacity: 1;
+    background-color: #222335;
+    border-radius: 5px;
+    margin: 20px;
+    fill: #0F2844;
+    padding: 20px;
+}
+.serv h2 {
+    padding-left: 10px;
+    color: black;
+    font-weight: 500;
+   font-family: 'Heebo', sans-serif;
+}
+.serv p {
+    font-size: 12px;
+    line-height: 20px;
+    font-style: normal;
+    padding-left: 10px;
+    color: black;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.ser {
+    background-color: #05111E;
+  font-family: 'Raleway', sans-serif;
+    margin-top: 0px;
+    font-size: 14px;
+    color: #EC583C;
+    opacity: 1;
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    border: none;
+}
+.book {
+    background-color: #EC583C;
+    font-family: 'Raleway', sans-serif;
+    opacity: 1;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: left;
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    border: none;
+}
+.red {
+    font-family: 'Raleway', sans-serif;
+    opacity: 1;
+    color: #EC583C;
+    font-size: 10px;
+    background-color: #0F2844;
+    font-weight: 400;
+    border-radius: 20px;
+    height: 23px;
+    width: 90px;
+    margin-top: 10px;
+    border: none;
+}
+.wp {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    height: 48px;
+    width: 49px;
+    color: #fff;
+    background-color: #ec583c;
+    text-align: center;
+    opacity: 1;
+}
+
+.req {
+    
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid #ec583c;
+    height: 47.5px;
+    width: 198px;
+    color: white;
+    margin: 10px;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    transition: var(--tran);
+    overflow: hidden;
+}
+.req a {
+color: white;
+}
+.hero h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+    color: #fff;
+}
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: column;
+    flex-direction: column;
+     background: url(img/4.jpg);
+}
+.cont {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.cont .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.cont .contactInfo .box .te h3 {
+    font-weight: 500;
+    color: #ec583c;
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+}
+.cont .contactInfo .box .te p a{
+	color: white;
+
+}
+
+.contactForm {
+    width: 50%;
+    padding: 40px;
+    background: #fff;
+    opacity: 1;
+}
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input, .contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+    color: #ec583c;
+}
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #0F2844;
+}
+.footer-section {
+    background: #0e0e0e;
+    position: relative;
+    padding-top: 30px;
+   padding-left: 80px;
+}
+.footer-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    padding-right: 100px;
+}
+
+.footer-widget ul li {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-bottom: 12px;
+    color: white;
+}
+.copyright-area{
+ padding-right : 100px;
+}
+.copyright-text a{
+color: #EC583C;
+}
+.Aneesh a {
+	color: #EC583C;
+	font-family: 'Raleway', sans-serif;
+}
+.footer-widget-heading li a {
+	color: #EC583C;
+}
+.Html_Form {
+	padding: 10px;
+text-align: center;
+width: 50%;
+}
+
+.Html_Form form {
+	padding: 20px;
+	margin-right: 30%;
+	margin-top: 50px;
+	text-align: center;
+	width:100%;
+	border:2px solid black;
+	
+}
+.Html_Form form input {
+	width: 100%;
+	margin:5px;
+	padding: 5px;
+	
+	border:none;
+	outline: none;
+	
+}
+.Html_Form form input:hover {
+	border-bottom: 2px solid black;
+}
+.Html_Form form input:focus {
+	border-bottom: 3px solid black;
+}
+.Html_Form form button {
+	width: 100%;
+	margin:5px;
+	padding: 5px;
+	
+	border:none;
+	outline: none;
+	border-bottom: 2px solid orange;
+	background-color: #ec583c;
+	color:white; 
+	cursor: pointer;
+}
+.Html_Form form button:hover{
+	background-color: black;
+}
+.Html_Form form select {
+	width: 100%;
+	margin:5px;
+	padding: 5px;
+	border-radius: 5px;
+	border:none;
+	outline: none;
+	border-bottom: 2px solid orange;
+}
+.Html_Form form select:hover {
+	border-bottom: 2px solid black;
+}
+.Html_Form form select:focus {
+	border-bottom: 3px solid black;
+}
